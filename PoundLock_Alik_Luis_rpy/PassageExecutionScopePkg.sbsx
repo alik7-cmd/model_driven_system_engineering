@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 2abec03b-0c07-433d-8ca9-3474c68bf249</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">PassageExecutionScopePkg</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:1:18</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::9:30:51</weakCGTime>
+			<strongCGTime type="a">4.18.2024::9:30:51</strongCGTime>
+			<_defaultComposite type="s">GUID c35cfb2c-c256-40ae-b3d0-ce7199212f0b</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">4.18.2024::9:30:51</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 283c2d47-3c5e-472f-9123-6d86f7a86a90</value>
+				<value>GUID c35cfb2c-c256-40ae-b3d0-ce7199212f0b</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IComponent type="e">
+			<fileName type="a">PassageSim</fileName>
+			<_id type="a">GUID 283c2d47-3c5e-472f-9123-6d86f7a86a90</_id>
+		</IComponent>
+		<IClass type="e">
+			<_id type="a">GUID c35cfb2c-c256-40ae-b3d0-ce7199212f0b</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:30:51</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::9:30:51</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 0b5b647e-867a-4015-8958-fe09f5a77392</value>
+				<value>GUID b4c1c5e3-6f6d-4a09-a265-80ad8e06f316</value>
+				<value>GUID 630c388b-ce3f-4957-8e01-0a2a6322a4fa</value>
+				<value>GUID b3c06855-aaaf-459b-9727-47bffb4918e9</value>
+			</AggregatesList>
+		</IClass>
+		<IPart type="e">
+			<_id type="a">GUID 0b5b647e-867a-4015-8958-fe09f5a77392</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">itsUc_Passage</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:30:51</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PassagePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::PassagePkg</_hsubsystem>
+					<_hname type="a">Uc_Passage</_hname>
+					<_hid type="a">GUID 2a100787-3a5a-421f-b9ab-0129dd262aa3</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID b4c1c5e3-6f6d-4a09-a265-80ad8e06f316</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">prtShip</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:30:51</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Ship</_hname>
+					<_hid type="a">GUID adfc6660-2ad8-4e0c-a5fe-c15aeff82fa3</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID 630c388b-ce3f-4957-8e01-0a2a6322a4fa</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">prtOperator</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:30:51</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Operator</_hname>
+					<_hid type="a">GUID e971f741-55dc-432e-a08a-f35d8072f97c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID b3c06855-aaaf-459b-9727-47bffb4918e9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">prtElectricityProvider</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:30:51</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Electricity Provider</_hname>
+					<_hid type="a">GUID ce9440ff-06a4-4013-afb7-4c2806c4cf3d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

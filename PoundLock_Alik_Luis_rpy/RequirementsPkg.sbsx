@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 43242545-6c10-4421-8897-a0aa1c09dd46</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RequirementsPkg</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:29:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:1:18</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::9:29:53</weakCGTime>
+			<strongCGTime type="a">4.18.2024::9:29:53</strongCGTime>
+			<_defaultComposite type="s">GUID 63402ecd-50ce-4819-8b06-acec4b042fed</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 5cb8aebe-1858-40d9-9c1d-593829d5fe5a</value>
+				<value>GUID 9d8b1de8-41d5-4362-9c98-fcf0144833b8</value>
+				<value>GUID 63402ecd-50ce-4819-8b06-acec4b042fed</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ITag type="e">
+			<_id type="a">GUID 5cb8aebe-1858-40d9-9c1d-593829d5fe5a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">includeInSharedModel</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:29:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:29:53</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 4e96bf53-5139-4838-a8ba-3b50aa0e593f</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 4e96bf53-5139-4838-a8ba-3b50aa0e593f</_id>
+			<_modifiedTimeWeak type="a">4.18.2024::9:29:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:29:53</_modifiedTime>
+			<_value type="a">true</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 9d8b1de8-41d5-4362-9c98-fcf0144833b8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">includeInSubsystemModel</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:29:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:29:53</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 515ac575-c99a-4f7e-879e-8cc2381b0db7</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 515ac575-c99a-4f7e-879e-8cc2381b0db7</_id>
+			<_modifiedTimeWeak type="a">4.18.2024::9:29:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:29:53</_modifiedTime>
+			<_value type="a">true</_value>
+		</ILiteralSpecification>
+		<IClass type="e">
+			<_id type="a">GUID 63402ecd-50ce-4819-8b06-acec4b042fed</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

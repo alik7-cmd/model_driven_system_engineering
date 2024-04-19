@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 0452df9f-b6bb-4002-ba19-e17ea4b6cc99</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Relation</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Generate</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">WebComponents</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Event</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">WebManaged</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">ActorPkg</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::10:1:18</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::9:30:51</weakCGTime>
+			<strongCGTime type="a">4.18.2024::9:29:53</strongCGTime>
+			<_defaultComposite type="s">GUID 39c9456d-3ddd-4d8d-a8ab-b22526340bf4</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 39c9456d-3ddd-4d8d-a8ab-b22526340bf4</value>
+				<value>GUID adfc6660-2ad8-4e0c-a5fe-c15aeff82fa3</value>
+				<value>GUID e971f741-55dc-432e-a08a-f35d8072f97c</value>
+				<value>GUID ce9440ff-06a4-4013-afb7-4c2806c4cf3d</value>
+				<value>GUID 3a0ce379-ef3a-49af-9e7b-ff38a4749b56</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 39c9456d-3ddd-4d8d-a8ab-b22526340bf4</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IActor type="e">
+			<_id type="a">GUID adfc6660-2ad8-4e0c-a5fe-c15aeff82fa3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Ship</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:30:51</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::9:30:51</weakCGTime>
+			<strongCGTime type="a">4.18.2024::9:30:51</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 42ea1b29-584c-4199-9787-d6ba40fb49c5</value>
+				<value>GUID 1302fd9c-fa00-4bd1-99a3-0c3f86907f03</value>
+			</AggregatesList>
+		</IActor>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 42ea1b29-584c-4199-9787-d6ba40fb49c5</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsPassage</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:23:11</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\PassagePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::PassagePkg</_hsubsystem>
+					<_hname type="a">Passage</_hname>
+					<_hid type="a">GUID 315b3e75-7fae-4571-b3c3-f6c00580569d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\PassagePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::PassagePkg</_hsubsystem>
+					<_hclass type="a">Passage</_hclass>
+					<_hname type="a">itsShip</_hname>
+					<_hid type="a">GUID aff61690-edc6-4da3-8360-0982c09a5a15</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 1302fd9c-fa00-4bd1-99a3-0c3f86907f03</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMonitor Lock Status</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:23:26</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\..\PoundLock_Alik_Luis.rpyx</_hfilename>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Monitor Lock Status</_hname>
+					<_hid type="a">GUID f80e2d87-51a6-4b89-ad49-dfe98f41c18c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hclass type="a">Monitor Lock Status</_hclass>
+					<_hname type="a">itsShip</_hname>
+					<_hid type="a">GUID 79935a92-a3ad-4a3d-b9ad-4582af547b16</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IActor type="e">
+			<_id type="a">GUID e971f741-55dc-432e-a08a-f35d8072f97c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Operator</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:30:51</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::9:30:51</weakCGTime>
+			<strongCGTime type="a">4.18.2024::9:30:51</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 00f30732-d4bd-48ee-aaa6-242a7ab214ad</value>
+				<value>GUID 78e56881-2ce3-42b8-9f05-7cb83a51a1f7</value>
+				<value>GUID 479fbd43-c3ca-44e3-9bf8-a42e60b18c54</value>
+				<value>GUID 17747fb3-f7c0-4101-a8e1-088fec16d591</value>
+			</AggregatesList>
+		</IActor>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 00f30732-d4bd-48ee-aaa6-242a7ab214ad</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsControl mode of operation</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:23:38</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\..\PoundLock_Alik_Luis.rpyx</_hfilename>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Control mode of operation</_hname>
+					<_hid type="a">GUID 31766ed7-6a7f-4330-9714-01293dfee7d7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hclass type="a">Control mode of operation</_hclass>
+					<_hname type="a">itsOperator</_hname>
+					<_hid type="a">GUID 4dfa887a-fb12-489b-8481-06e6e97e9992</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 78e56881-2ce3-42b8-9f05-7cb83a51a1f7</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMaintain Lock Equipment</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:24:2</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\..\PoundLock_Alik_Luis.rpyx</_hfilename>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Maintain Lock Equipment</_hname>
+					<_hid type="a">GUID e1b30d11-1b49-4b4e-a362-d960c28812d3</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hclass type="a">Maintain Lock Equipment</_hclass>
+					<_hname type="a">itsOperator</_hname>
+					<_hid type="a">GUID c189d4ba-e79c-4290-83df-265f8ba02407</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 479fbd43-c3ca-44e3-9bf8-a42e60b18c54</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsPassage</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:25:22</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\PassagePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::PassagePkg</_hsubsystem>
+					<_hname type="a">Passage</_hname>
+					<_hid type="a">GUID 315b3e75-7fae-4571-b3c3-f6c00580569d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\PassagePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::PassagePkg</_hsubsystem>
+					<_hclass type="a">Passage</_hclass>
+					<_hname type="a">itsOperator</_hname>
+					<_hid type="a">GUID e79f62f5-d3f5-4a2d-ae73-c43d18eaa9c3</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 17747fb3-f7c0-4101-a8e1-088fec16d591</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMonitor Lock Status</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:25:28</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\..\PoundLock_Alik_Luis.rpyx</_hfilename>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Monitor Lock Status</_hname>
+					<_hid type="a">GUID f80e2d87-51a6-4b89-ad49-dfe98f41c18c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hclass type="a">Monitor Lock Status</_hclass>
+					<_hname type="a">itsOperator</_hname>
+					<_hid type="a">GUID cb72bf8e-fdfa-4b4f-b9d9-d0ef9a00a70b</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IActor type="e">
+			<_id type="a">GUID ce9440ff-06a4-4013-afb7-4c2806c4cf3d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Electricity Provider</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:30:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:30:51</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::9:30:51</weakCGTime>
+			<strongCGTime type="a">4.18.2024::9:30:51</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 53828f3b-3e05-4758-a6f9-e6b4467c0b04</value>
+				<value>GUID 5bb6c7d2-0fbf-4ac5-991d-401957b98a11</value>
+				<value>GUID 14982ece-926f-4a46-9370-be6281e49fa8</value>
+				<value>GUID 71e02079-1849-4792-aefa-b8a9bf48b33c</value>
+			</AggregatesList>
+		</IActor>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 53828f3b-3e05-4758-a6f9-e6b4467c0b04</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMaintain Lock Equipment</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:25:35</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\..\PoundLock_Alik_Luis.rpyx</_hfilename>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Maintain Lock Equipment</_hname>
+					<_hid type="a">GUID e1b30d11-1b49-4b4e-a362-d960c28812d3</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hclass type="a">Maintain Lock Equipment</_hclass>
+					<_hname type="a">itsElectricity Provider</_hname>
+					<_hid type="a">GUID 35cbdd69-af73-497e-a884-e8f6bfd6e216</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 5bb6c7d2-0fbf-4ac5-991d-401957b98a11</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsControl mode of operation</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:25:40</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\..\PoundLock_Alik_Luis.rpyx</_hfilename>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Control mode of operation</_hname>
+					<_hid type="a">GUID 31766ed7-6a7f-4330-9714-01293dfee7d7</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hclass type="a">Control mode of operation</_hclass>
+					<_hname type="a">itsElectricity Provider</_hname>
+					<_hid type="a">GUID 9cfbcda4-c294-47ee-a0e7-642545299169</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 14982ece-926f-4a46-9370-be6281e49fa8</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMonitor Lock Status</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:25:46</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\..\PoundLock_Alik_Luis.rpyx</_hfilename>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hname type="a">Monitor Lock Status</_hname>
+					<_hid type="a">GUID f80e2d87-51a6-4b89-ad49-dfe98f41c18c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hsubsystem type="a">UseCaseModeling</_hsubsystem>
+					<_hclass type="a">Monitor Lock Status</_hclass>
+					<_hname type="a">itsElectricity Provider</_hname>
+					<_hid type="a">GUID cdf56a23-28f8-4c9b-a5bc-2d2220aed6b5</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 71e02079-1849-4792-aefa-b8a9bf48b33c</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsPassage</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:25:54</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\PassagePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::PassagePkg</_hsubsystem>
+					<_hname type="a">Passage</_hname>
+					<_hid type="a">GUID 315b3e75-7fae-4571-b3c3-f6c00580569d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\PassagePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::PassagePkg</_hsubsystem>
+					<_hclass type="a">Passage</_hclass>
+					<_hname type="a">itsElectricity Provider</_hname>
+					<_hid type="a">GUID 4ad84a0f-4fed-46f0-9a6a-50ac88e73202</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<ITableInstance type="e">
+			<_id type="a">GUID 3a0ce379-ef3a-49af-9e7b-ff38a4749b56</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">PoundLock_Alik_Luis Actors</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::9:29:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::9:29:53</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITableLayout</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\HarmonySE\HarmonySE.sbs</_hfilename>
+					<_hsubsystem type="a">HarmonySE::Layouts</_hsubsystem>
+					<_hname type="a">Actor Layout</_hname>
+					<_hid type="a">GUID 31d94477-479b-42a4-9883-364a8680fe64</_hid>
+				</IHandle>
+			</LayoutHandle>
+			<ScopeHandles type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hid type="a">GUID 0452df9f-b6bb-4002-ba19-e17ea4b6cc99</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</ScopeHandles>
+		</ITableInstance>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
