@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID eadaf397-14ab-4472-93aa-92dce3e9a109</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">InterfacesPkg</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:46:52</_modifiedTime>
+			<weakCGTime type="a">4.19.2024::8:30:14</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_defaultComposite type="s">GUID 1ac94eb5-55af-42de-a7f4-82f40eb5b62d</_defaultComposite>
+			<_eventsBaseID type="a">24601</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 659dde6c-e7b7-42ec-a426-d427485428ab</value>
+				<value>GUID 1ac94eb5-55af-42de-a7f4-82f40eb5b62d</value>
+				<value>GUID 43bd8ace-1c3a-4463-8892-180abb598e8c</value>
+				<value>GUID 5d2cfada-321b-4e21-a6e7-547379a99d76</value>
+				<value>GUID 5571e6a3-0d37-4dcd-9f03-16ac3935140f</value>
+				<value>GUID 59f7324b-bd56-40cd-b9e9-8bfd22e334f6</value>
+				<value>GUID 072d8c88-2176-491e-9106-aa5dcbb737a9</value>
+				<value>GUID 461031bb-2ac9-4adf-83fa-7a10a24339c3</value>
+				<value>GUID 9877bbf8-2bb5-481b-b6e7-648ee92f12ce</value>
+				<value>GUID fdeb03d3-ed10-4266-bce2-95dcac4d5ed8</value>
+				<value>GUID 9c830583-4a66-45d1-bc7d-16626753c716</value>
+				<value>GUID 526a42d7-25fc-4591-a71d-f52453e34fe7</value>
+				<value>GUID cabe44ef-eee8-42b5-9547-606e47098816</value>
+				<value>GUID 036512d1-93b3-4b85-bab9-2d80d3a107a5</value>
+				<value>GUID 3d8a1331-4ee7-4bd1-99bf-1ea0e8e5ef65</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ITag type="e">
+			<_id type="a">GUID 659dde6c-e7b7-42ec-a426-d427485428ab</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">includeInSharedModel</_name>
+			<_modifiedTimeWeak type="a">4.17.2024::14:7:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::14:7:5</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID d5371fba-9e25-48bb-9326-da9f25aed4fe</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID d5371fba-9e25-48bb-9326-da9f25aed4fe</_id>
+			<_modifiedTimeWeak type="a">4.17.2024::14:7:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::14:7:5</_modifiedTime>
+			<_value type="a">true</_value>
+		</ILiteralSpecification>
+		<IClass type="e">
+			<_id type="a">GUID 1ac94eb5-55af-42de-a7f4-82f40eb5b62d</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 43bd8ace-1c3a-4463-8892-180abb598e8c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">iUser_Uc_MakeCoffee</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">interfaceBlock</_hname>
+							<_hid type="a">GUID b2944aa1-daf4-4596-9707-d7ae5b2f2976</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:4</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStructureDiagram</_hm2Class>
+					<_hfilename type="a">.\MakeCoffeePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::MakeCoffeePkg</_hsubsystem>
+					<_hname type="a">IBD_Make Coffee</_hname>
+					<_hid type="a">GUID dc97aa28-3f5f-4129-ace9-128e34dc3ef8</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">4.18.2024::7:55:19</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::7:47:4</weakCGTime>
+			<strongCGTime type="a">4.18.2024::7:47:3</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 303c1521-9c7d-4c82-98a2-628f6aa0cd1a</value>
+				<value>GUID 8f70e2e1-f3f7-49ce-af5d-b36d772e7035</value>
+				<value>GUID d6b5603b-0df0-4ee7-9fca-9b94046ee1ab</value>
+				<value>GUID 1fbf3687-1c4c-44bc-9e24-01b81e8f05f0</value>
+			</AggregatesList>
+		</IClass>
+		<IReception type="e">
+			<_id type="a">GUID 303c1521-9c7d-4c82-98a2-628f6aa0cd1a</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 072d8c88-2176-491e-9106-aa5dcbb737a9</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID 8f70e2e1-f3f7-49ce-af5d-b36d772e7035</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 461031bb-2ac9-4adf-83fa-7a10a24339c3</_hid>
+				</IHandle>
+			</_event>
+			<AggregatesList type="e">
+				<value>GUID 59ec7573-c225-4386-843b-c6583e45fbba</value>
+			</AggregatesList>
+		</IReception>
+		<ITag type="e">
+			<_id type="a">GUID 59ec7573-c225-4386-843b-c6583e45fbba</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">direction</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hname type="a">FeatureDirection</_hname>
+					<_hid type="a">GUID 3868dc24-9894-4822-a127-b11dd0ecdfe0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hclass type="a">directedFeature</_hclass>
+					<_hname type="a">direction</_hname>
+					<_hid type="a">GUID bfbc8bed-20c0-4cfa-9582-7463abc29883</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID aa439f16-e84a-4a9f-92ee-18d67bda16cd</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID aa439f16-e84a-4a9f-92ee-18d67bda16cd</_id>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_value type="a">required</_value>
+		</ILiteralSpecification>
+		<IReception type="e">
+			<_id type="a">GUID d6b5603b-0df0-4ee7-9fca-9b94046ee1ab</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 9877bbf8-2bb5-481b-b6e7-648ee92f12ce</_hid>
+				</IHandle>
+			</_event>
+			<AggregatesList type="e">
+				<value>GUID ca40b2dc-cc79-40f2-ae9a-5c73d3110eae</value>
+			</AggregatesList>
+		</IReception>
+		<ITag type="e">
+			<_id type="a">GUID ca40b2dc-cc79-40f2-ae9a-5c73d3110eae</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">direction</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hname type="a">FeatureDirection</_hname>
+					<_hid type="a">GUID 3868dc24-9894-4822-a127-b11dd0ecdfe0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hclass type="a">directedFeature</_hclass>
+					<_hname type="a">direction</_hname>
+					<_hid type="a">GUID bfbc8bed-20c0-4cfa-9582-7463abc29883</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 25cf455e-9a5f-4f27-916a-1eeb24e471b7</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 25cf455e-9a5f-4f27-916a-1eeb24e471b7</_id>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_value type="a">required</_value>
+		</ILiteralSpecification>
+		<IReception type="e">
+			<_id type="a">GUID 1fbf3687-1c4c-44bc-9e24-01b81e8f05f0</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:4</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 9c830583-4a66-45d1-bc7d-16626753c716</_hid>
+				</IHandle>
+			</_event>
+			<AggregatesList type="e">
+				<value>GUID 2ccec8cc-4cd7-4bb7-bc63-55f6c82a95b1</value>
+			</AggregatesList>
+		</IReception>
+		<ITag type="e">
+			<_id type="a">GUID 2ccec8cc-4cd7-4bb7-bc63-55f6c82a95b1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">direction</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:4</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hname type="a">FeatureDirection</_hname>
+					<_hid type="a">GUID 3868dc24-9894-4822-a127-b11dd0ecdfe0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hclass type="a">directedFeature</_hclass>
+					<_hname type="a">direction</_hname>
+					<_hid type="a">GUID bfbc8bed-20c0-4cfa-9582-7463abc29883</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 29e6181e-8a30-453a-8160-1ab806029bf2</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 29e6181e-8a30-453a-8160-1ab806029bf2</_id>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:4</_modifiedTime>
+			<_value type="a">required</_value>
+		</ILiteralSpecification>
+		<IClass type="e">
+			<_id type="a">GUID 5d2cfada-321b-4e21-a6e7-547379a99d76</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">iUc_MakeCoffee_Store</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">interfaceBlock</_hname>
+							<_hid type="a">GUID b2944aa1-daf4-4596-9707-d7ae5b2f2976</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:4</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IStructureDiagram</_hm2Class>
+					<_hfilename type="a">.\MakeCoffeePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::MakeCoffeePkg</_hsubsystem>
+					<_hname type="a">IBD_Make Coffee</_hname>
+					<_hid type="a">GUID dc97aa28-3f5f-4129-ace9-128e34dc3ef8</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">4.18.2024::7:55:19</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::7:47:4</weakCGTime>
+			<strongCGTime type="a">4.18.2024::7:47:3</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID f7791e2b-9e59-4225-afef-7b8ca1cbd255</value>
+			</AggregatesList>
+		</IClass>
+		<IReception type="e">
+			<_id type="a">GUID f7791e2b-9e59-4225-afef-7b8ca1cbd255</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:4</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID fdeb03d3-ed10-4266-bce2-95dcac4d5ed8</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IClass type="e">
+			<_id type="a">GUID 5571e6a3-0d37-4dcd-9f03-16ac3935140f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">iUser_WaterSS</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">interfaceBlock</_hname>
+							<_hid type="a">GUID b2944aa1-daf4-4596-9707-d7ae5b2f2976</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:41:35</_modifiedTime>
+			<weakCGTime type="a">4.19.2024::8:30:14</weakCGTime>
+			<strongCGTime type="a">4.19.2024::8:30:14</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID fe355d7a-392a-4285-b909-aa42c09b5a52</value>
+				<value>GUID a95b7201-e5d9-4647-b7b4-18d2e087d5ac</value>
+			</AggregatesList>
+		</IClass>
+		<IReception type="e">
+			<_id type="a">GUID fe355d7a-392a-4285-b909-aa42c09b5a52</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 072d8c88-2176-491e-9106-aa5dcbb737a9</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID a95b7201-e5d9-4647-b7b4-18d2e087d5ac</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 9c830583-4a66-45d1-bc7d-16626753c716</_hid>
+				</IHandle>
+			</_event>
+			<AggregatesList type="e">
+				<value>GUID e3f44634-e3a7-4308-b973-a813a2e0bf7f</value>
+			</AggregatesList>
+		</IReception>
+		<ITag type="e">
+			<_id type="a">GUID e3f44634-e3a7-4308-b973-a813a2e0bf7f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">direction</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hname type="a">FeatureDirection</_hname>
+					<_hid type="a">GUID 3868dc24-9894-4822-a127-b11dd0ecdfe0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hclass type="a">directedFeature</_hclass>
+					<_hname type="a">direction</_hname>
+					<_hid type="a">GUID bfbc8bed-20c0-4cfa-9582-7463abc29883</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 42d9c984-6d38-4d34-aa7c-de46a66b6057</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 42d9c984-6d38-4d34-aa7c-de46a66b6057</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_value type="a">required</_value>
+		</ILiteralSpecification>
+		<IClass type="e">
+			<_id type="a">GUID 59f7324b-bd56-40cd-b9e9-8bfd22e334f6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">iWaterSS_BeanSS</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">interfaceBlock</_hname>
+							<_hid type="a">GUID b2944aa1-daf4-4596-9707-d7ae5b2f2976</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:41:35</_modifiedTime>
+			<weakCGTime type="a">4.19.2024::8:30:14</weakCGTime>
+			<strongCGTime type="a">4.19.2024::8:30:14</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID ccf18665-9185-4efd-a5eb-bd366a0b8434</value>
+				<value>GUID 32267a9e-8875-4f6f-802f-c48b11d5dadf</value>
+				<value>GUID 2509df42-31a3-4332-8fa4-5ed77e644950</value>
+				<value>GUID 4bfe64ae-88db-4ce8-9770-b63c36f737bf</value>
+			</AggregatesList>
+		</IClass>
+		<IReception type="e">
+			<_id type="a">GUID ccf18665-9185-4efd-a5eb-bd366a0b8434</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 526a42d7-25fc-4591-a71d-f52453e34fe7</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID 32267a9e-8875-4f6f-802f-c48b11d5dadf</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID cabe44ef-eee8-42b5-9547-606e47098816</_hid>
+				</IHandle>
+			</_event>
+			<AggregatesList type="e">
+				<value>GUID 84f5c231-fa04-4002-91bb-f4f6588b3d6d</value>
+			</AggregatesList>
+		</IReception>
+		<ITag type="e">
+			<_id type="a">GUID 84f5c231-fa04-4002-91bb-f4f6588b3d6d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">direction</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hname type="a">FeatureDirection</_hname>
+					<_hid type="a">GUID 3868dc24-9894-4822-a127-b11dd0ecdfe0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hclass type="a">directedFeature</_hclass>
+					<_hname type="a">direction</_hname>
+					<_hid type="a">GUID bfbc8bed-20c0-4cfa-9582-7463abc29883</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 2821ceb4-7f81-4f33-af0d-7307f23df7a3</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 2821ceb4-7f81-4f33-af0d-7307f23df7a3</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_value type="a">required</_value>
+		</ILiteralSpecification>
+		<IReception type="e">
+			<_id type="a">GUID 2509df42-31a3-4332-8fa4-5ed77e644950</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 036512d1-93b3-4b85-bab9-2d80d3a107a5</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID 4bfe64ae-88db-4ce8-9770-b63c36f737bf</_id>
+			<_myState type="a">8192</_myState>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">directedFeature</_hname>
+							<_hid type="a">GUID da9c8b9b-a98c-4009-a5ad-d98c020e0ced</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 3d8a1331-4ee7-4bd1-99bf-1ea0e8e5ef65</_hid>
+				</IHandle>
+			</_event>
+			<AggregatesList type="e">
+				<value>GUID 3017f74c-21a7-4b3f-8db1-c30f53a5a1ab</value>
+			</AggregatesList>
+		</IReception>
+		<ITag type="e">
+			<_id type="a">GUID 3017f74c-21a7-4b3f-8db1-c30f53a5a1ab</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">direction</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hname type="a">FeatureDirection</_hname>
+					<_hid type="a">GUID 3868dc24-9894-4822-a127-b11dd0ecdfe0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+					<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+					<_hclass type="a">directedFeature</_hclass>
+					<_hname type="a">direction</_hname>
+					<_hid type="a">GUID bfbc8bed-20c0-4cfa-9582-7463abc29883</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 5a5248fc-48e1-49b2-8c64-2342cb174906</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 5a5248fc-48e1-49b2-8c64-2342cb174906</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_value type="a">required</_value>
+		</ILiteralSpecification>
+		<IEvent type="e">
+			<_id type="a">GUID 072d8c88-2176-491e-9106-aa5dcbb737a9</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">reqCoffee</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 461031bb-2ac9-4adf-83fa-7a10a24339c3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evReportNoWater</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 9877bbf8-2bb5-481b-b6e7-648ee92f12ce</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evReportNoBeans</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID fdeb03d3-ed10-4266-bce2-95dcac4d5ed8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evOrderBeans</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:4</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 9c830583-4a66-45d1-bc7d-16626753c716</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evDispenseCoffee</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:4</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 526a42d7-25fc-4591-a71d-f52453e34fe7</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">reqCheckBeans</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID cabe44ef-eee8-42b5-9547-606e47098816</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">reqBoilWater</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 036512d1-93b3-4b85-bab9-2d80d3a107a5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">reqGrindBeans</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 3d8a1331-4ee7-4bd1-99bf-1ea0e8e5ef65</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">reqBrewCoffee</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

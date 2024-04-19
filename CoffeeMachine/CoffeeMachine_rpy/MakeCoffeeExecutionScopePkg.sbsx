@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 44922d0d-bcd0-4440-b77a-fcd6443a5216</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">MakeCoffeeExecutionScopePkg</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:54:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::8:2:24</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::7:54:57</weakCGTime>
+			<strongCGTime type="a">4.18.2024::7:54:57</strongCGTime>
+			<_defaultComposite type="s">GUID 1a43925a-9c90-4232-8467-0517be339ba9</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">4.17.2024::14:10:14</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 2abbeae6-baf7-4f9a-b776-cd29c5cf73ba</value>
+				<value>GUID 1a43925a-9c90-4232-8467-0517be339ba9</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IComponent type="e">
+			<fileName type="a">Make_CoffeeSim</fileName>
+			<_id type="a">GUID 2abbeae6-baf7-4f9a-b776-cd29c5cf73ba</_id>
+		</IComponent>
+		<IClass type="e">
+			<_id type="a">GUID 1a43925a-9c90-4232-8467-0517be339ba9</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:54:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:54:57</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::7:54:57</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID e94ef54c-8708-4724-b8c2-ede4d5ccbbc3</value>
+				<value>GUID e3de6f2a-234a-4c2d-8a57-4b8f24f7ba26</value>
+				<value>GUID ef97df0a-39b5-41a1-a55b-ab0bacd7c094</value>
+				<value>GUID e413b781-7143-43a9-99a8-cd966ed73bd0</value>
+				<value>GUID 9fe6ea4b-fd05-45e8-8444-d7b6d7081058</value>
+			</AggregatesList>
+		</IClass>
+		<IPart type="e">
+			<_id type="a">GUID e94ef54c-8708-4724-b8c2-ede4d5ccbbc3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">itsUc_MakeCoffee</_name>
+			<_modifiedTimeWeak type="a">4.17.2024::14:10:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::14:10:14</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\MakeCoffeePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::MakeCoffeePkg</_hsubsystem>
+					<_hname type="a">Uc_MakeCoffee</_hname>
+					<_hid type="a">GUID 758be640-6f5a-477c-908a-d798ec8b80ff</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID e3de6f2a-234a-4c2d-8a57-4b8f24f7ba26</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">prtUser</_name>
+			<_modifiedTimeWeak type="a">4.17.2024::14:10:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::14:10:14</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">User</_hname>
+					<_hid type="a">GUID 52dc1e17-ddfb-42b6-a6d1-7a4630fdcfbd</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IPart type="e">
+			<_id type="a">GUID ef97df0a-39b5-41a1-a55b-ab0bacd7c094</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">prtStore</_name>
+			<_modifiedTimeWeak type="a">4.17.2024::14:10:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::14:10:14</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hname type="a">Store</_hname>
+					<_hid type="a">GUID 1bddc7e4-0701-48c2-9c61-6d5d3dc502c1</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+		</IPart>
+		<IObjectLink type="e">
+			<_id type="a">GUID e413b781-7143-43a9-99a8-cd966ed73bd0</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUc_MakeCoffee_prtUser</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">connector</_hname>
+							<_hid type="a">GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:54:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:54:57</_modifiedTime>
+			<_toLink type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID e3de6f2a-234a-4c2d-8a57-4b8f24f7ba26</_hid>
+				</IHandle>
+			</_toLink>
+			<_fromLink type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID e94ef54c-8708-4724-b8c2-ede4d5ccbbc3</_hid>
+				</IHandle>
+			</_fromLink>
+			<_instantiates type="r">
+				<IMetaLinkHandle type="e">
+				</IMetaLinkHandle>
+			</_instantiates>
+			<_end1Multiplicity type="a">1</_end1Multiplicity>
+			<_end2Multiplicity type="a">1</_end2Multiplicity>
+			<_toPort type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">User</_hclass>
+					<_hname type="a">pUc_MakeCoffee</_hname>
+					<_hid type="a">GUID ec1390d7-de68-417d-8f64-7ec7caadd6a4</_hid>
+				</IHandle>
+			</_toPort>
+			<_fromPort type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\MakeCoffeePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::MakeCoffeePkg</_hsubsystem>
+					<_hclass type="a">Uc_MakeCoffee</_hclass>
+					<_hname type="a">pUser</_hname>
+					<_hid type="a">GUID 25e2f2ed-99e9-4399-b902-203ac6130cc0</_hid>
+				</IHandle>
+			</_fromPort>
+		</IObjectLink>
+		<IObjectLink type="e">
+			<_id type="a">GUID 9fe6ea4b-fd05-45e8-8444-d7b6d7081058</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUc_MakeCoffee_prtStore</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::Blocks</_hsubsystem>
+							<_hname type="a">connector</_hname>
+							<_hid type="a">GUID af0f57c0-ca41-456e-87cc-be8bf10a1c55</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:54:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:54:57</_modifiedTime>
+			<_toLink type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID ef97df0a-39b5-41a1-a55b-ab0bacd7c094</_hid>
+				</IHandle>
+			</_toLink>
+			<_fromLink type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPart</_hm2Class>
+					<_hid type="a">GUID e94ef54c-8708-4724-b8c2-ede4d5ccbbc3</_hid>
+				</IHandle>
+			</_fromLink>
+			<_instantiates type="r">
+				<IMetaLinkHandle type="e">
+				</IMetaLinkHandle>
+			</_instantiates>
+			<_end1Multiplicity type="a">1</_end1Multiplicity>
+			<_end2Multiplicity type="a">1</_end2Multiplicity>
+			<_toPort type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\ActorPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">ActorPkg</_hsubsystem>
+					<_hclass type="a">Store</_hclass>
+					<_hname type="a">pUc_MakeCoffee</_hname>
+					<_hid type="a">GUID 676bcddb-59eb-4518-b06d-80ccacd1c564</_hid>
+				</IHandle>
+			</_toPort>
+			<_fromPort type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\MakeCoffeePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::MakeCoffeePkg</_hsubsystem>
+					<_hclass type="a">Uc_MakeCoffee</_hclass>
+					<_hname type="a">pStore</_hname>
+					<_hid type="a">GUID 20bc7f76-1271-4762-b063-8fbc929094d3</_hid>
+				</IHandle>
+			</_fromPort>
+		</IObjectLink>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

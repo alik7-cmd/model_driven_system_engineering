@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<IWorkspace type="e">
+			<m_SavedActiveProjectsName type="a">Water</m_SavedActiveProjectsName>
+			<_id type="a">GUID ab17b1cb-6427-45e9-b816-e99a49079fe6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Projects</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:53:8</_modifiedTime>
+			<AggregatesList type="e">
+				<value>GUID fb57fbda-9f43-4c15-84a6-1fb7da688cb1</value>
+			</AggregatesList>
+		</IWorkspace>
+		<IProject type="e">
+			<fileName type="a">Water</fileName>
+			<_persistAs type="a">D:\TUE\ST\Model Based System Engineering\Work\Water</_persistAs>
+			<_id type="a">GUID fb57fbda-9f43-4c15-84a6-1fb7da688cb1</_id>
+		</IProject>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 7eda3a9a-90a6-4767-a84d-14ae3ff031a0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RequirementsAnalysisPkg</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:53:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:53:5</_modifiedTime>
+			<weakCGTime type="a">4.19.2024::8:53:5</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_defaultComposite type="s">GUID 1d07757c-40b9-4783-8ee2-2a1317aeac2a</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::1:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 638c06b5-3332-49e6-a47c-0d3d1e596ef4</value>
+				<value>GUID 1e9672e4-a3c5-409a-8079-8a8c9f7ebf54</value>
+				<value>GUID 1d07757c-40b9-4783-8ee2-2a1317aeac2a</value>
+				<value>GUID c3c2b63c-0b52-42af-9c95-5efdbddb86b3</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">RequirementsPkg</fileName>
+			<_id type="a">GUID 638c06b5-3332-49e6-a47c-0d3d1e596ef4</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">UseCaseDiagramsPkg</fileName>
+			<_id type="a">GUID 1e9672e4-a3c5-409a-8079-8a8c9f7ebf54</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 1d07757c-40b9-4783-8ee2-2a1317aeac2a</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IMatrixInstance type="e">
+			<_id type="a">GUID c3c2b63c-0b52-42af-9c95-5efdbddb86b3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">WaterUseCaseReqsMatrix</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:53:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:53:5</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+				</IHandle>
+			</LayoutHandle>
+			<FromScopeHandles type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</FromScopeHandles>
+			<ToScopeHandles type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</ToScopeHandles>
+		</IMatrixInstance>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

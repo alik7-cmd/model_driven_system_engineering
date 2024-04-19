@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0.2</version>
+	<lang>C++</lang>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 0075950b-ecd8-4cfe-9cda-a012dfc48649</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Relation</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Generate</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">WebComponents</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Event</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">WebManaged</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">ActorPkg</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:46:52</_modifiedTime>
+			<weakCGTime type="a">4.19.2024::8:30:14</weakCGTime>
+			<strongCGTime type="a">4.17.2024::14:7:5</strongCGTime>
+			<_defaultComposite type="s">GUID f47544bf-fa01-4625-b436-c0e0f56a0609</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID f47544bf-fa01-4625-b436-c0e0f56a0609</value>
+				<value>GUID 52dc1e17-ddfb-42b6-a6d1-7a4630fdcfbd</value>
+				<value>GUID 1bddc7e4-0701-48c2-9c61-6d5d3dc502c1</value>
+				<value>GUID 9fc898c7-44af-4e24-8265-d8c5cc0bcce1</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID f47544bf-fa01-4625-b436-c0e0f56a0609</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IActor type="e">
+			<_id type="a">GUID 52dc1e17-ddfb-42b6-a6d1-7a4630fdcfbd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">User</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<weakCGTime type="a">4.19.2024::8:30:14</weakCGTime>
+			<strongCGTime type="a">4.17.2024::14:10:14</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID ec1390d7-de68-417d-8f64-7ec7caadd6a4</value>
+				<value>GUID 9042d510-8db2-4611-a31e-c2c525ee590a</value>
+				<value>GUID d4c9ee12-40c6-470f-8bd3-ba9996600450</value>
+				<value>GUID e3d09280-5963-47e9-b204-6d559c4ada9f</value>
+				<value>GUID 59d59227-c8e9-463f-af84-7b7102363be7</value>
+				<value>GUID d035e088-7e24-4c5a-8bf3-d81ec599a7fd</value>
+			</AggregatesList>
+		</IActor>
+		<IPort type="e">
+			<_id type="a">GUID ec1390d7-de68-417d-8f64-7ec7caadd6a4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">pUc_MakeCoffee</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\InterfacesPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">InterfacesPkg</_hsubsystem>
+					<_hname type="a">iUser_Uc_MakeCoffee</_hname>
+					<_hid type="a">GUID 43bd8ace-1c3a-4463-8892-180abb598e8c</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+			<_behavioral type="a">1</_behavioral>
+			<AggregatesList type="e">
+				<value>GUID 20662b85-1123-4c38-9823-da8084997be4</value>
+			</AggregatesList>
+		</IPort>
+		<ITag type="e">
+			<_id type="a">GUID 20662b85-1123-4c38-9823-da8084997be4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Destination</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\HarmonySE\HarmonySE.sbs</_hfilename>
+					<_hsubsystem type="a">HarmonySE</_hsubsystem>
+					<_hname type="a">Destination</_hname>
+					<_hid type="a">GUID 2fa9f54f-f2a7-4a1c-8178-1a93bfb676c5</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID ab31c287-f153-4ea0-b671-4020202d2293</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID ab31c287-f153-4ea0-b671-4020202d2293</_id>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_value type="a">Uc_MakeCoffee</_value>
+		</ILiteralSpecification>
+		<IPort type="e">
+			<_id type="a">GUID 9042d510-8db2-4611-a31e-c2c525ee590a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">pWaterSS</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\InterfacesPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">InterfacesPkg</_hsubsystem>
+					<_hname type="a">iUser_WaterSS</_hname>
+					<_hid type="a">GUID 5571e6a3-0d37-4dcd-9f03-16ac3935140f</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_reversed type="a">1</_reversed>
+			<_behavioral type="a">1</_behavioral>
+			<AggregatesList type="e">
+				<value>GUID a2db432b-e90b-4097-9615-7db4e05b2833</value>
+			</AggregatesList>
+		</IPort>
+		<ITag type="e">
+			<_id type="a">GUID a2db432b-e90b-4097-9615-7db4e05b2833</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Destination</_name>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\HarmonySE\HarmonySE.sbs</_hfilename>
+					<_hsubsystem type="a">HarmonySE</_hsubsystem>
+					<_hname type="a">Destination</_hname>
+					<_hid type="a">GUID 2fa9f54f-f2a7-4a1c-8178-1a93bfb676c5</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID a2882356-e47e-42fb-b3ea-045d28726a1c</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID a2882356-e47e-42fb-b3ea-045d28726a1c</_id>
+			<_modifiedTimeWeak type="a">4.19.2024::8:30:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.19.2024::8:30:14</_modifiedTime>
+			<_value type="a">WaterSS</_value>
+		</ILiteralSpecification>
+		<IReception type="e">
+			<_id type="a">GUID d4c9ee12-40c6-470f-8bd3-ba9996600450</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\InterfacesPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">InterfacesPkg</_hsubsystem>
+					<_hname type="a">evReportNoWater()</_hname>
+					<_hid type="a">GUID 461031bb-2ac9-4adf-83fa-7a10a24339c3</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID e3d09280-5963-47e9-b204-6d559c4ada9f</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\InterfacesPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">InterfacesPkg</_hsubsystem>
+					<_hname type="a">evReportNoBeans()</_hname>
+					<_hid type="a">GUID 9877bbf8-2bb5-481b-b6e7-648ee92f12ce</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID 59d59227-c8e9-463f-af84-7b7102363be7</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\InterfacesPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">InterfacesPkg</_hsubsystem>
+					<_hname type="a">evDispenseCoffee()</_hname>
+					<_hid type="a">GUID 9c830583-4a66-45d1-bc7d-16626753c716</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d035e088-7e24-4c5a-8bf3-d81ec599a7fd</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMake Coffee</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::14:9:10</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MakeCoffeePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::MakeCoffeePkg</_hsubsystem>
+					<_hname type="a">Make Coffee</_hname>
+					<_hid type="a">GUID 86b849c5-423f-4ec8-941a-55ccdcb90f9b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MakeCoffeePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::MakeCoffeePkg</_hsubsystem>
+					<_hclass type="a">Make Coffee</_hclass>
+					<_hname type="a">itsUser</_hname>
+					<_hid type="a">GUID 1a8e1723-8957-424e-a029-6a3178a92774</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IActor type="e">
+			<_id type="a">GUID 1bddc7e4-0701-48c2-9c61-6d5d3dc502c1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Store</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<weakCGTime type="a">4.18.2024::7:47:3</weakCGTime>
+			<strongCGTime type="a">4.17.2024::14:10:14</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 676bcddb-59eb-4518-b06d-80ccacd1c564</value>
+				<value>GUID 83dabd99-5acb-44f3-9846-cbb350ab853f</value>
+				<value>GUID d83a201a-696b-4ed4-a9a2-d78206659ce9</value>
+			</AggregatesList>
+		</IActor>
+		<IPort type="e">
+			<_id type="a">GUID 676bcddb-59eb-4518-b06d-80ccacd1c564</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">pUc_MakeCoffee</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">$OMROOT\Profiles\SysML\SysMLProfile_rpy\SysML.sbs</_hfilename>
+							<_hsubsystem type="a">SysML::PortsAndFlows</_hsubsystem>
+							<_hname type="a">proxyPort</_hname>
+							<_hid type="a">GUID b04e5e63-f5d7-4e3d-8000-2e07f5be4e8a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\InterfacesPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">InterfacesPkg</_hsubsystem>
+					<_hname type="a">iUc_MakeCoffee_Store</_hname>
+					<_hid type="a">GUID 5d2cfada-321b-4e21-a6e7-547379a99d76</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_behavioral type="a">1</_behavioral>
+			<AggregatesList type="e">
+				<value>GUID cb2e28dd-17c7-4168-bac5-30721c74b90f</value>
+			</AggregatesList>
+		</IPort>
+		<ITag type="e">
+			<_id type="a">GUID cb2e28dd-17c7-4168-bac5-30721c74b90f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Destination</_name>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\HarmonySE\HarmonySE.sbs</_hfilename>
+					<_hsubsystem type="a">HarmonySE</_hsubsystem>
+					<_hname type="a">Destination</_hname>
+					<_hid type="a">GUID 2fa9f54f-f2a7-4a1c-8178-1a93bfb676c5</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID c4616b95-fbf1-4853-9098-9f984df07a0d</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID c4616b95-fbf1-4853-9098-9f984df07a0d</_id>
+			<_modifiedTimeWeak type="a">4.18.2024::7:47:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.18.2024::7:47:3</_modifiedTime>
+			<_value type="a">Uc_MakeCoffee</_value>
+		</ILiteralSpecification>
+		<IReception type="e">
+			<_id type="a">GUID 83dabd99-5acb-44f3-9846-cbb350ab853f</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hfilename type="a">.\InterfacesPkg.sbsx</_hfilename>
+					<_hsubsystem type="a">InterfacesPkg</_hsubsystem>
+					<_hname type="a">evOrderBeans()</_hname>
+					<_hid type="a">GUID fdeb03d3-ed10-4266-bce2-95dcac4d5ed8</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d83a201a-696b-4ed4-a9a2-d78206659ce9</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMake Coffee</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::14:9:13</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MakeCoffeePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::MakeCoffeePkg</_hsubsystem>
+					<_hname type="a">Make Coffee</_hname>
+					<_hid type="a">GUID 86b849c5-423f-4ec8-941a-55ccdcb90f9b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MakeCoffeePkg.sbsx</_hfilename>
+					<_hsubsystem type="a">FunctionalAnalysisPkg::MakeCoffeePkg</_hsubsystem>
+					<_hclass type="a">Make Coffee</_hclass>
+					<_hname type="a">itsStore</_hname>
+					<_hid type="a">GUID c9be5cc2-3c97-467a-a8e7-c94ac4ed759c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<ITableInstance type="e">
+			<_id type="a">GUID 9fc898c7-44af-4e24-8265-d8c5cc0bcce1</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CoffeeMachine Actors</_name>
+			<_modifiedTimeWeak type="a">4.17.2024::14:7:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">4.17.2024::14:7:5</_modifiedTime>
+			<LayoutHandle type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITableLayout</_hm2Class>
+					<_hfilename type="a">$OMROOT\Profiles\HarmonySE\HarmonySE.sbs</_hfilename>
+					<_hsubsystem type="a">HarmonySE::Layouts</_hsubsystem>
+					<_hname type="a">Actor Layout</_hname>
+					<_hid type="a">GUID 31d94477-479b-42a4-9883-364a8680fe64</_hid>
+				</IHandle>
+			</LayoutHandle>
+			<ScopeHandles type="c">
+				<IRPYRawContainer type="e">
+					
+						<IHandle type="e">
+							<_hm2Class type="a">ISubsystem</_hm2Class>
+							<_hid type="a">GUID 0075950b-ecd8-4cfe-9cda-a012dfc48649</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</ScopeHandles>
+		</ITableInstance>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
